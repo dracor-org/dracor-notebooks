@@ -27,3 +27,6 @@ In the paper [*To catch a Protagonist: Quantitatice Domninance Relations in Germ
 The original algorithm was implemented in the tool [Dramavis](https://github.com/lehkost/dramavis) by [Christopher Kittel](https://github.com/chreman). 
 
 The following notebook adapts the code of the respective modules to work with data returned by the DraCor API. The aim is to be able to recreate the *_chars.csv-files that were used in the study.
+
+## Bibliography
+Fischer, Frank, u. a. „To Catch a Protagonist: Quantitative Dominance Relations in German-Language Drama (1730–1930)“. DH2018: »Puentes/Bridges«. 26–29 June 2018. Book of Abstracts / Libro de resúmenes, Red de Humanidades Digitales A. C., 2018, https://dh2018.adho.org/to-catch-a-protagonist-quantitative-dominance-relations-in-german-language-drama-1730-1930/.
