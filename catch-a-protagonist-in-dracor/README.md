@@ -1,4 +1,3 @@
----
 titles:
   main: To catch a protagonist in DraCor
 authors:
@@ -18,7 +17,7 @@ packages_required:
 licence: CC BY
 ---
 
-#To catch a protagonist in DraCor
+# To catch a protagonist in DraCor
 
 In the paper *To catch a Protagonist: Quantitatice Domninance Relations in German-Language Drama" (1730-1930)* (Fischer et al. 2018) an algorithm is described, that allows to identify characters that are the quantitatively dominant characters of a play based on a set of network-based and count based measures:
 
