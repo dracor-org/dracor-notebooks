@@ -15,7 +15,7 @@ programming_language: Python
 packages_required:
   - requests
   - pandas
-licence: CC BY
+license: CC BY
 ---
 
 # To catch a protagonist in DraCor
