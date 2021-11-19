@@ -18,12 +18,15 @@ packages_required:
 licence: CC BY
 ---
 
-#To catch a protagonist in DraCor
+# To catch a protagonist in DraCor
 
-In the paper *To catch a Protagonist: Quantitatice Domninance Relations in German-Language Drama" (1730-1930)* (Fischer et al. 2018) an algorithm is described, that allows to identify characters that are the quantitatively dominant characters of a play based on a set of network-based and count based measures:
+In the paper [*To catch a Protagonist: Quantitatice Domninance Relations in German-Language Drama" (1730-1930)*](https://dh-abstracts.library.cmu.edu/works/6281) (Fischer et al. 2018) an algorithm is described, that allows to identify characters that are the quantitatively dominant characters of a play based on a set of network-based and count based measures:
 
 > In order to systematically describe the extent of this deviation, we calculate eight values for each character of the 465 dramas of our corpus, three count-based measures (number of scenes a character appears in, number of speech acts, number of spoken words) and five network-related measures (degree, weighted degree, betweenness centrality, closeness centrality, eigenvector centrality). For each measurement a ranking is created. The rankings are then merged into two meta-rankings: one count-based and one network-based. The two meta-rankings are then combined into an overall ranking.
 
-The original algorithm was implemented in the tool Dramavis by Christopher Kittel. 
+The original algorithm was implemented in the tool [Dramavis](https://github.com/lehkost/dramavis) by [Christopher Kittel](https://github.com/chreman). 
 
-The following notebook adapts the code of the respective modules to work with data returned by the DraCor API. The aim is to be able to recreate the *_chars.csv-files that were used in the study. The data can be found in the repository on github in the folder allmetrics.
+The following notebook adapts the code of the respective modules to work with data returned by the [DraCor API](https://dracor.org/doc/api). The aim is to be able to recreate the `*_chars.csv`-files that were used in the study.
+
+## Bibliography
+Fischer, Frank, u. a. „To Catch a Protagonist: Quantitative Dominance Relations in German-Language Drama (1730–1930)“. DH2018: »Puentes/Bridges«. 26–29 June 2018. Book of Abstracts / Libro de resúmenes, Red de Humanidades Digitales A. C., 2018, https://dh2018.adho.org/to-catch-a-protagonist-quantitative-dominance-relations-in-german-language-drama-1730-1930/.
