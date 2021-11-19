@@ -1,3 +1,4 @@
+---
 titles:
   main: To catch a protagonist in DraCor
 authors:
