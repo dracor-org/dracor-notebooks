@@ -1,4 +1,4 @@
-# dracor-tutorials
+# dracor-notebooks
 A collection of notebooks to showcase the DraCor API.
 
 ## Binder
