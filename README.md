@@ -1,6 +1,7 @@
 # dracor-notebooks
 A collection of notebooks to showcase the DraCor API:
 
+* [API-Tutorial](https://github.com/dracor-org/dracor-notebooks/tree/main/api-tutorial) (in progress)
 * [To catch a protagonist in DraCor](https://github.com/dracor-org/dracor-notebooks/tree/main/catch-a-protagonist-in-dracor) *(Ingo Börner)*
 
 ## Binder
