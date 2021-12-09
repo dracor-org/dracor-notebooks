@@ -4,6 +4,7 @@ A collection of notebooks to showcase the work with data extracted from [DraCor 
 * [API Tutorial](https://github.com/dracor-org/dracor-notebooks/tree/main/api-tutorial) (in progress)
 * [DraCor-Based reconstruction of our paper "To Catch a Protagonist"](https://github.com/dracor-org/dracor-notebooks/tree/main/catch-a-protagonist-in-dracor) *(Ingo Börner)*
 * [Stylometric Text Classification](https://github.com/dracor-org/dracor-notebooks/tree/main/stylometric-text-classification) *(Robert Jäschke)*
+* [Genre Analysis with DraCor](https://github.com/dracor-org/dracor-notebooks/tree/main/genre-analysis) *(Henny Sluyter-Gäthje)*
 
 ## Binder
 Notebooks can be executed locally or via Binder:
