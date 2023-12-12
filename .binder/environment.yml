@@ -1,0 +1,13 @@
+# Ref: https://mybinder.readthedocs.io/en/latest/using/config_files.html#configuration-files
+# 2023-12-19: Python 3.12 is not supported at the moment
+#
+# installs the latest version of these dependencies
+dependencies:
+  - python=3.11
+  - matplotlib
+  - pandas
+  - nltk
+  - scattertext
+  - scikit-learn
+  - spacy
+  - spacy-transformers
