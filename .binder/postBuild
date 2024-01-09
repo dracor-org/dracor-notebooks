@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+# update pip
+python -m pip install --upgrade pip
+
+# display installed versions
+python -V
+python -m pip list
+
+# install NLTL Punkt tokenizer
+python -m nltk.downloader punkt
