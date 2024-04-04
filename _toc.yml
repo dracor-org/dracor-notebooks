@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: README
+root: introduction
 chapters:
 - file: api-tutorial/api-tutorial
 - file: contrastive-text-analysis/scattertext
