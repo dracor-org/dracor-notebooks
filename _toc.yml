@@ -1,0 +1,12 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: introduction
+chapters:
+- file: api-tutorial/api-tutorial
+- file: contrastive-text-analysis/scattertext
+- file: gender-visualization/dracor_visualization
+- file: genre-analysis/Dracor_Genre_Analysis
+- file: stylometric-text-classification/stylometric-text-classification
+- file: catch-a-protagonist-in-dracor/catch-a-protagonist-in-dracor
