@@ -20,7 +20,7 @@ license: CC BY
 
 # To catch a protagonist in DraCor
 
-In the paper [*To catch a Protagonist: Quantitatice Domninance Relations in German-Language Drama" (1730-1930)*](https://dh-abstracts.library.cmu.edu/works/6281) (Fischer et al. 2018) an algorithm is described, that allows to identify characters that are the quantitatively dominant characters of a play based on a set of network-based and count based measures:
+In the paper [*To catch a Protagonist: Quantitatice Domninance Relations in German-Language Drama" (1730-1930)*](https://dh-abstracts.library.cmu.edu/works/6281) (Fischer, Trilcke et al. 2018) an algorithm is described, that allows to identify characters that are the quantitatively dominant characters of a play based on a set of network-based and count based measures:
 
 > In order to systematically describe the extent of this deviation, we calculate eight values for each character of the 465 dramas of our corpus, three count-based measures (number of scenes a character appears in, number of speech acts, number of spoken words) and five network-related measures (degree, weighted degree, betweenness centrality, closeness centrality, eigenvector centrality). For each measurement a ranking is created. The rankings are then merged into two meta-rankings: one count-based and one network-based. The two meta-rankings are then combined into an overall ranking.
 
