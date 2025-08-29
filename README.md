@@ -10,6 +10,7 @@ A collection of notebooks to showcase the work with data extracted from [DraCor 
 * [Genre Analysis with DraCor](https://github.com/dracor-org/dracor-notebooks/tree/main/genre-analysis) *(Henny Sluyter-Gäthje)*
 * [Contrastive Text Analysis](https://github.com/dracor-org/dracor-notebooks/tree/main/contrastive-text-analysis) *(Robert Jäschke)*
 * [Gender Representation in German Plays](https://github.com/dracor-org/dracor-notebooks/tree/main/gender-visualization) *(Sandra Densch-Glazov, Leonie Wichers, Kyung Yun Choi, Benedikt Schuh)*
+* [NLP-based Speech Analysis of DraCor Data](https://github.com/dracor-org/dracor-notebooks/tree/main/speech_analysis) *(Henny Sluyter-Gäthje)*
 
 ## Binder
 Notebooks can be executed locally or via Binder:
