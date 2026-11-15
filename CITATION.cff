@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use these notebooks, please cite them as below."
+type: software
+title: "DraCor Notebooks"
+version: "2026-11-15-baseline"
+date-released: "2026-11-15"
+abstract: "Jupyter notebooks demonstrating research with the DraCor API and the drama corpora of DraCor (https://dracor.org)."
+authors:
+  - given-names: Ingo
+    family-names: Börner
+    orcid: "https://orcid.org/0000-0001-8294-2541"
+  - given-names: Henny
+    family-names: Sluyter-Gäthje
+    orcid: "https://orcid.org/0000-0003-2969-3237"
+  - given-names: Frank
+    family-names: Fischer
+    orcid: "https://orcid.org/0000-0003-2419-6629"
+  - given-names: Robert
+    family-names: Jäschke
+    orcid: "https://orcid.org/0000-0003-3271-9653"
+  - given-names: Carsten
+    family-names: Milling
+    orcid: "https://orcid.org/0000-0003-0553-7512"
+  - given-names: Peer
+    family-names: Trilcke
+    orcid: "https://orcid.org/0000-0002-1421-4320"
+  - given-names: Heinz-Alexander
+    family-names: Fütterer
+    orcid: "https://orcid.org/0000-0003-4397-027X"
+  - given-names: Sandra
+    family-names: Densch-Glazov
+  - given-names: Luca
+    family-names: Giovannini
+    orcid: "https://orcid.org/0000-0003-2444-7192"
+  - given-names: Leonie
+    family-names: Wichers
+  - given-names: Kyung Yun
+    family-names: Choi
+  - given-names: Benedikt
+    family-names: Schuh
+repository-code: "https://github.com/dracor-org/dracor-notebooks"
+url: "https://dracor-org.github.io/dracor-notebooks/"
+license: GPL-3.0
+keywords:
+  - DraCor
+  - drama
+  - computational literary studies
+  - Jupyter

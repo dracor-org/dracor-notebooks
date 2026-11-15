@@ -15,3 +15,11 @@ A collection of notebooks to showcase the work with data extracted from [DraCor 
 ## Binder
 Notebooks can be executed locally or via Binder:
 https://mybinder.org/v2/gh/dracor-org/dracor-notebooks/main
+
+## Status and tested environments
+
+The notebooks were last tested on 2026-11-15 against DraCor API v1 1.4.1, the legacy API v0 0.91.3 and staging 1.5.0-rc.1. Not all of them run with current package versions: some need PyDraCor 2.0.0, some still use the legacy API v0, which will be shut down. [TESTED-ENVIRONMENTS.md](TESTED-ENVIRONMENTS.md) lists, for each notebook, the API version, the server, the PyDraCor and Python versions and the test result. The exact package sets are in [environments/](environments/).
+
+## How to cite
+
+Please cite this repository using the metadata in [CITATION.cff](CITATION.cff). On GitHub, the "Cite this repository" button in the sidebar provides it as APA or BibTeX.
