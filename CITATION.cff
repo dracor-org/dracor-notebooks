@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use these notebooks, please cite them as below."
 type: software
 title: "DraCor Notebooks"
+version: "2026-11-15-baseline"
+date-released: "2026-11-15"
 abstract: "Jupyter notebooks demonstrating research with the DraCor API and the drama corpora of DraCor (https://dracor.org)."
 authors:
   - given-names: Ingo
