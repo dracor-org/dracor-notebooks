@@ -4,6 +4,7 @@ type: software
 title: "DraCor Notebooks"
 version: "2026-11-15-baseline"
 date-released: "2026-11-15"
+doi: "10.5281/zenodo.24237154"
 abstract: "Jupyter notebooks demonstrating research with the DraCor API and the drama corpora of DraCor (https://dracor.org)."
 authors:
   - given-names: Ingo
@@ -41,6 +42,13 @@ authors:
 repository-code: "https://github.com/dracor-org/dracor-notebooks"
 url: "https://dracor-org.github.io/dracor-notebooks/"
 license: GPL-3.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24237154"
+    description: "Concept DOI, all versions (resolves to the latest)"
+  - type: doi
+    value: "10.5281/zenodo.24237155"
+    description: "Version 2026-11-15-baseline"
 keywords:
   - DraCor
   - drama

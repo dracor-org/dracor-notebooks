@@ -1,6 +1,6 @@
 # DraCor Notebooks
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dracor-org/dracor-notebooks/main)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24237154.svg)](https://doi.org/10.5281/zenodo.24237154) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dracor-org/dracor-notebooks/main)
 
 A collection of notebooks to showcase the work with data extracted from [DraCor corpora](https://dracor.org) and in particular the [DraCor API](https://dracor.org/doc/api):
 
@@ -23,3 +23,8 @@ The notebooks were last tested on 2026-11-15 against DraCor API v1 1.4.1, the le
 ## How to cite
 
 Please cite this repository using the metadata in [CITATION.cff](CITATION.cff). On GitHub, the "Cite this repository" button in the sidebar provides it as APA or BibTeX.
+
+The notebooks are archived on Zenodo:
+
+- All versions (resolves to the latest): [10.5281/zenodo.24237154](https://doi.org/10.5281/zenodo.24237154)
+- Baseline as tested on 2026-11-15 (tag `2026-11-15-baseline`): [10.5281/zenodo.24237155](https://doi.org/10.5281/zenodo.24237155)
