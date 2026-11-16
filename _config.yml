@@ -4,6 +4,7 @@
 title: DraCor Notebooks
 author: The DraCor Community
 logo: dracor-blue.png
+only_build_toc_files: true
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -32,6 +33,29 @@ html:
   use_repository_button: true
 
 launch_buttons:
-  binderhub_url: "https://mybinder.org"
+  binderhub_url: "https://binder.eu-2.notebooks.open-science-cloud.ec.europa.eu"
   colab_url: "https://colab.research.google.com"
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+
+sphinx:
+  local_extensions:
+    launch_buttons_extra: _ext/  # EOSC EU Node + mybinder.org, as in the DraCor Textbook
+  config:
+    # These html_theme_options replace the ones Jupyter Book generates from
+    # `repository`, `html` and `launch_buttons`, so they are repeated here.
+    html_theme_options:
+      repository_url: https://github.com/dracor-org/dracor-notebooks
+      repository_branch: main
+      use_repository_button: true
+      use_issues_button: true
+      launch_buttons:
+        binderhub_url: https://binder.eu-2.notebooks.open-science-cloud.ec.europa.eu
+        colab_url: https://colab.research.google.com
+        notebook_interface: jupyterlab
+      extra_footer: |
+        <p>The DraCor Notebooks are archived on Zenodo: <a href="https://doi.org/10.5281/zenodo.24237154">10.5281/zenodo.24237154</a>. For an introduction to DraCor, see the <a href="https://dracor-org.github.io/dracor-textbook/">DraCor Textbook</a>.</p>
+        <p>The code is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>.</p>
 
