@@ -39,7 +39,7 @@ Fischer, Frank, Peer Trilcke et al. „To Catch a Protagonist: Quantitative Domi
 
 ### Version 2: DraCor API v1 (August 2025)
 
-Henny Sluyter-Gäthje adapted the notebook to version 1 of the DraCor API (`https://dracor.org/api/v1/`, commit `f67867a`, 2025-08-29):
+Henny Sluyter-Gäthje updated the notebook to version 1 of the DraCor API (`https://dracor.org/api/v1/`, commit `f67867a`, 2025-08-29):
 
 - The character data come from the endpoint `/corpora/{corpusname}/plays/{playname}/characters`, which replaced `/corpora/{corpusname}/play/{playname}/cast`.
 - The characters' sex is in the field `sex`, which replaced `gender`.
