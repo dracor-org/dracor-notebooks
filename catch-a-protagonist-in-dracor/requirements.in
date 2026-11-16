@@ -1,0 +1,4 @@
+# Packages needed by catch-a-protagonist-in-dracor.ipynb.
+# Lock with: uv pip compile --universal --python-version 3.10 requirements.in -o requirements.txt
+requests
+pandas
