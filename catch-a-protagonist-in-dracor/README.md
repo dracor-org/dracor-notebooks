@@ -53,4 +53,6 @@ Tag: [`2026-11-15-baseline`](https://github.com/dracor-org/dracor-notebooks/tree
 
 The first version of this notebook, by Ingo Börner, reconstructs the algorithm of the paper "To Catch a Protagonist" (Fischer, Trilcke et al. 2018) with data from the DraCor API, which was not versioned at that time (`https://dracor.org/api/`, now the legacy API v0).
 
+Heinz-Alexander Fütterer (2023, commit `2452d3f`) and Luca Giovannini (2024, commit `da07079`) corrected typos in the text.
+
 Tag: none. The last state of this version is commit [`da07079`](https://github.com/dracor-org/dracor-notebooks/tree/da07079/catch-a-protagonist-in-dracor) (2024-06-05).
