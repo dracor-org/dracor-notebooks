@@ -9,6 +9,8 @@ A collection of notebooks to showcase the work with data extracted from [DraCor 
 The [DraCor Textbook](https://dracor-org.github.io/dracor-textbook/) introduces DraCor, the API and the programming basics. Its [Appendix A](https://dracor-org.github.io/dracor-textbook/appendix/running-the-textbook-as-an-interactive-notebook.html) explains how to run notebooks on the EOSC EU Node Binder or on mybinder.org.
 :::
 
+## Table of contents
+
 ```{tableofcontents}
 ```
 
