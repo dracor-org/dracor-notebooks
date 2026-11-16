@@ -4,7 +4,7 @@ Thank you for your interest in the DraCor Notebooks. The notebooks show how to d
 
 ## Maintainers
 
-The DraCor Notebooks are maintained by Ingo Börner, Henny Sluyter-Gäthje, Frank Fischer and Carsten Milling (technical lead of DraCor). The authors of each notebook are named at its beginning and in the `CITATION.cff` of the repository.
+The DraCor Notebooks are maintained by Ingo Börner, Henny Sluyter-Gäthje and Frank Fischer, with the support of Carsten Milling (technical lead of DraCor). The authors of each notebook are named at its beginning and in the `CITATION.cff` of the repository.
 
 ## Ideas, questions and problems
 
