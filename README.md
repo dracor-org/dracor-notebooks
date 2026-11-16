@@ -14,7 +14,7 @@ A collection of notebooks to showcase the work with data extracted from [DraCor 
 
 ## Maintainers and contributing
 
-The DraCor Notebooks are maintained by Ingo Börner, Henny Sluyter-Gäthje, Frank Fischer and Carsten Milling (main developer of DraCor). Ideas for new notebooks, corrections and questions are welcome: please open an [issue](https://github.com/dracor-org/dracor-notebooks/issues) or write to info@dracor.org. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute, and [Get in Touch](https://dracor.org/doc/get-in-touch) on dracor.org for other ways to reach the DraCor community.
+The DraCor Notebooks are maintained by Ingo Börner, Henny Sluyter-Gäthje, Frank Fischer and Carsten Milling (technical lead of DraCor). Ideas for new notebooks, corrections and questions are welcome: please open an [issue](https://github.com/dracor-org/dracor-notebooks/issues) or write to info@dracor.org. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute, and [Get in Touch](https://dracor.org/doc/get-in-touch) on dracor.org for other ways to reach the DraCor community.
 
 **Use of AI:** We use AI, namely Claude Code (Anthropic), to test, maintain and update the notebooks. All changes are reviewed by a maintainer.
 
