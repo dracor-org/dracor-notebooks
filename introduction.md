@@ -26,7 +26,12 @@ The notebooks are archived on Zenodo:
 Each notebook has its own version history at the end of its page.
 :::
 
-:::{admonition} Questions or feedback
+:::{admonition} Maintainers and contributing
 :class: seealso
-Please open an issue on [GitHub](https://github.com/dracor-org/dracor-notebooks/issues).
+The DraCor Notebooks are maintained by Ingo Börner, Henny Sluyter-Gäthje, Frank Fischer and Carsten Milling (main developer of DraCor). Ideas for new notebooks, corrections and questions are welcome: please open an [issue on GitHub](https://github.com/dracor-org/dracor-notebooks/issues) or write to info@dracor.org. See [CONTRIBUTING.md](https://github.com/dracor-org/dracor-notebooks/blob/main/CONTRIBUTING.md) for how to contribute, and [Get in Touch](https://dracor.org/doc/get-in-touch) on dracor.org for other ways to reach the DraCor community.
+:::
+
+:::{admonition} Use of AI
+:class: note
+We use AI, namely Claude Code (Anthropic), to test, maintain and update the notebooks. All changes are reviewed by a maintainer.
 :::
