@@ -1,0 +1,20 @@
+/* The version history at the end of a notebook page (a README section,
+   included with {include}) is metadata about the notebook, not part of
+   its content. Set it off as a box. */
+section#version-history {
+  margin-top: 3rem;
+  padding: 0.75rem 1.5rem 1rem;
+  border: 1px solid var(--pst-color-border);
+  border-left: 4px solid var(--pst-color-secondary);
+  border-radius: 0.25rem;
+  background-color: var(--pst-color-surface);
+  font-size: 0.9em;
+}
+section#version-history h2 {
+  margin-top: 0.5rem;
+  font-size: 1.4em;
+}
+section#version-history h3 {
+  margin-top: 1.5rem;
+  font-size: 1.15em;
+}

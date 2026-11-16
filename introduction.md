@@ -21,7 +21,7 @@ The notebooks are archived on Zenodo:
 - All versions (resolves to the latest): [10.5281/zenodo.24237154](https://doi.org/10.5281/zenodo.24237154)
 - Baseline as tested on 2026-11-15 (tag `2026-11-15-baseline`): [10.5281/zenodo.24237155](https://doi.org/10.5281/zenodo.24237155)
 
-Each notebook lists its own versions at the end of its page.
+Each notebook has its own version history at the end of its page.
 :::
 
 :::{admonition} Questions or feedback
