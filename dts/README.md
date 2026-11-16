@@ -6,6 +6,14 @@ This Jupyter notebook introduces the implementation of the DTS (Distributed Text
 
 Install the required packages with `pip install -r requirements.txt` (Python 3.10 or newer). The server is set in the variable `api_base` at the beginning of the notebook.
 
+## Image credits
+
+| File | Description | Source | Licence |
+|---|---|---|---|
+| `images/dts-endpoint-overview.png` | Schema of the resource model underlying each DTS endpoint, the type of data it exposes and the required format of expression | Adapted by Ingo Börner from Almas, Bridget, Hugh Cayless, Thibault Clérice, Vincent Jolivet, Pietro Maria Liuzzo, Jonathan Robie, Matteo Romanello, and Ian Scott. "Distributed Text Services (DTS): A Community-Built API to Publish and Consume Text Collections as Linked Data." *Journal of the Text Encoding Initiative* (2023), Fig. 2. https://doi.org/10.4000/jtei.4352. First published in CLS INFRA D7.4 (2025), Fig. 12. | The original article is published under CC BY 4.0; the journal does not state a separate licence for its figures. |
+
+Images keep the licence of their source; the licence of this repository does not apply to them.
+
 ## Versions
 
 ### Version 2: DTS 1.0 (November 2026)
