@@ -28,7 +28,7 @@ Each notebook has its own version history at the end of its page.
 
 :::{admonition} Maintainers and contributing
 :class: seealso
-The DraCor Notebooks are maintained by Ingo Börner, Henny Sluyter-Gäthje, Frank Fischer and Carsten Milling (technical lead of DraCor). Ideas for new notebooks, corrections and questions are welcome: please open an [issue on GitHub](https://github.com/dracor-org/dracor-notebooks/issues) or write to info@dracor.org. See [CONTRIBUTING.md](https://github.com/dracor-org/dracor-notebooks/blob/main/CONTRIBUTING.md) for how to contribute, and [Get in Touch](https://dracor.org/doc/get-in-touch) on dracor.org for other ways to reach the DraCor community.
+The DraCor Notebooks are maintained by Ingo Börner, Henny Sluyter-Gäthje and Frank Fischer, with the support of Carsten Milling (technical lead of DraCor). Ideas for new notebooks, corrections and questions are welcome: please open an [issue on GitHub](https://github.com/dracor-org/dracor-notebooks/issues) or write to info@dracor.org. See [CONTRIBUTING.md](https://github.com/dracor-org/dracor-notebooks/blob/main/CONTRIBUTING.md) for how to contribute, and [Get in Touch](https://dracor.org/doc/get-in-touch) on dracor.org for other ways to reach the DraCor community.
 :::
 
 :::{admonition} Use of AI
