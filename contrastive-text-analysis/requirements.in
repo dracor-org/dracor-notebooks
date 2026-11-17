@@ -1,0 +1,11 @@
+# Packages needed by scattertext.ipynb.
+# Lock with: uv pip compile --universal --python-version 3.10 requirements.in -o requirements.txt
+pydracor>=3.0
+pandas
+scattertext
+# scattertext imports six without declaring it as a dependency
+six
+spacy
+spacy-transformers
+# German language model of spaCy
+de-dep-news-trf @ https://github.com/explosion/spacy-models/releases/download/de_dep_news_trf-3.8.0/de_dep_news_trf-3.8.0-py3-none-any.whl
