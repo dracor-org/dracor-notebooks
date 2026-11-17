@@ -1,0 +1,8 @@
+# Packages needed by the notebooks in gender-visualization.
+# Lock with: uv pip compile --universal --python-version 3.10 requirements.in -o requirements.txt
+pydracor>=3.0
+pandas
+networkx
+altair
+nx-altair
+ipywidgets

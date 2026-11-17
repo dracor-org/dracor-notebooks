@@ -17,7 +17,7 @@ contrastive-text-analysis,production,1.4.1,fails,,2026-11-15
 contrastive-text-analysis,staging,1.5.0-rc.1,untested,,
 parts_of_speech,production,1.4.1,fails,,2026-11-15
 parts_of_speech,staging,1.5.0-rc.1,untested,,
-gender-visualization,production,1.4.1,fails,,2026-11-15
-gender-visualization,staging,1.5.0-rc.1,untested,,
+gender-visualization,production,1.4.1,runs,,2026-11-17
+gender-visualization,staging,1.5.0-rc.1,runs,,2026-11-17
 explorecor-showcases,production,1.4.1,runs,,2026-11-17
 explorecor-showcases,staging,1.5.0-rc.1,runs,,2026-11-17
