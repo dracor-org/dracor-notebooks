@@ -1,0 +1,5 @@
+# Packages needed by Dracor_Genre_Analysis.ipynb.
+# Lock with: uv pip compile --universal --python-version 3.10 requirements.in -o requirements.txt
+requests
+pandas
+matplotlib

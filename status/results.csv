@@ -9,8 +9,8 @@ batch_download,production,1.4.1,runs,,2026-11-17
 batch_download,staging,1.5.0-rc.1,runs,,2026-11-17
 speech_analysis,production,1.4.1,runs,,2026-11-15
 speech_analysis,staging,1.5.0-rc.1,runs,,2026-11-17
-genre-analysis,production,0.91.3,legacy,uses API v0,2026-11-15
-genre-analysis,staging,1.5.0-rc.1,untested,,
+genre-analysis,production,1.4.1,runs,,2026-11-17
+genre-analysis,staging,1.5.0-rc.1,runs,,2026-11-17
 stylometric-text-classification,production,0.91.3,legacy,uses API v0,2026-11-15
 stylometric-text-classification,staging,1.5.0-rc.1,untested,,
 contrastive-text-analysis,production,1.4.1,fails,,2026-11-15
