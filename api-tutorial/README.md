@@ -14,7 +14,7 @@ Install the required packages with `pip install -r requirements.txt` (Python 3.1
 
 Ingo Börner updated the notebook to the current version of the DraCor API v1 ([#42](https://github.com/dracor-org/dracor-notebooks/issues/42)):
 
-- The sex of the characters is read from the field `sex`, which replaced `gender` (`gender` is now a separate, optional field). Before, the examples on the sex of the characters failed with a `KeyError`.
+- The sex of the characters is read from the field `sex`. With DraCor API 1.1.0 (July 2025), the former property `gender` was renamed to `sex`, and a new, optional `gender` was added for the TEI attribute `@gender` ([dracor-api#319](https://github.com/dracor-org/dracor-api/pull/319), following the revision of the sex and gender encoding in the DraCor schema, [dracor-schema#94](https://github.com/dracor-org/dracor-schema/pull/94)). Since then, the examples on the sex of the characters failed with a `KeyError`.
 - The metadata of a corpus come from the endpoint `/corpora/{corpusname}/metadata/csv`.
 - The text and the comments use the URLs of API v1 (`/api/v1/…`, `/plays/`). The generic function `get()` uses `API_URL` as its default server.
 - The comment on the data of `nltk` names `punkt_tab`, which newer versions of `nltk` need instead of `punkt`.
@@ -28,7 +28,7 @@ Tag: will be set with the release.
 
 ### Version 3: DraCor API v1 (May 2024)
 
-Henny Sluyter-Gäthje adapted the notebook to version 1 of the DraCor API (`https://dracor.org/api/v1/`, commit `db54c6c`, 2024-05-27): the endpoints `/plays/` and `characters` replaced `/play/` and `cast`. For the Jupyter Book, the input loops were limited and given default values (commits `48c8f53` and `7b28fdd`, 2024-05-31).
+Henny Sluyter-Gäthje adapted the notebook to version 1 of the DraCor API (`https://dracor.org/api/v1/`, commit `db54c6c`, 2024-05-27): the endpoints `/plays/` and `characters` replaced `/play/` and `cast`. For the Jupyter Book, the input loops were limited and given default values (commits `48c8f53` and `7b28fdd`, 2024-05-31). This version ran with DraCor API 1.0; since API 1.1.0 (July 2025), three cells fail because the field `gender` was renamed to `sex`.
 
 Tag: [`2026-11-15-baseline`](https://github.com/dracor-org/dracor-notebooks/tree/2026-11-15-baseline/api-tutorial), archived on Zenodo: [10.5281/zenodo.24237155](https://doi.org/10.5281/zenodo.24237155).
 
