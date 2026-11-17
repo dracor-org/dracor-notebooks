@@ -1,0 +1,4 @@
+# Packages needed by batch_download.ipynb.
+# Lock with: uv pip compile --universal --python-version 3.10 requirements.in -o requirements.txt
+pydracor>=3.0
+pandas

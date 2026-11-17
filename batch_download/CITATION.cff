@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this notebook, please cite it as below."
+type: software
+title: "Batch Download of DraCor Data with a Provenance Record"
+abstract: "A Jupyter notebook that downloads data of many plays of a DraCor corpus at once (networks, characters, spoken text, stage directions, TEI) with PyDraCor, and writes a provenance record with the DraCor IDs of the plays and the commit of the corpus version."
+version: "1"
+authors:
+  - given-names: Ingo
+    family-names: Börner
+    affiliation: University of Potsdam
+    orcid: "https://orcid.org/0000-0001-8294-2541"
+  - given-names: Frank
+    family-names: Fischer
+    affiliation: Freie Universität Berlin
+    orcid: "https://orcid.org/0000-0003-2419-6629"
+repository-code: "https://github.com/dracor-org/dracor-notebooks/tree/main/batch_download"
+license: GPL-3.0  # to be decided, see #31
+keywords:
+  - DraCor
+  - drama
+  - provenance
+  - reproducibility
+  - corpus versioning
+  - PyDraCor
+references:
+  - type: report
+    title: "CLS INFRA D7.3 On Versioning Living and Programmable Corpora"
+    authors:
+      - family-names: Börner
+        given-names: Ingo
+      - family-names: Trilcke
+        given-names: Peer
+    year: 2024
+    publisher:
+      name: Zenodo
+    doi: "10.5281/zenodo.11081934"
