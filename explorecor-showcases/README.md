@@ -23,7 +23,7 @@ Install the required packages with `pip install -r requirements.txt` (Python 3.1
 | `images/fulltext-view.png` | Full text view of a play in the DraCor front end | Screenshot of [dracor.org](https://dracor.org), 2024 |
 | `images/download-tab.png` | The "Downloads" tab of a play in the DraCor front end | Screenshot of [dracor.org](https://dracor.org), 2024 |
 | `images/gephi-oneclick-networkgraph.png` | Network of a DraCor play visualised in Gephi | D7.1, Fig. 03 |
-| `images/sentence-length-datagraph.png` | Mean sentence length in stage directions and spoken text in GerDraCor | D7.1, Fig. 05, cf. Trilcke et al. 2020 |
+| `images/sentence-length-datagraph.png` | Mean sentence length in stage directions and spoken text in GerDraCor, from the study by Trilcke et al. 2020 | D7.1, Fig. 05 |
 | `images/d71-fig06-average-path-length.png` | Average path length of 2,622 plays, 1500–1900 | D7.1, Fig. 06 |
 
 D7.1: Börner, Ingo, and Peer Trilcke. *CLS INFRA D7.1 On Programmable Corpora*. Zenodo, 2023. https://doi.org/10.5281/zenodo.7664964 (CC BY 4.0).
