@@ -15,6 +15,7 @@ parts:
   - file: dts/dts
   - file: batch_download/batch_download
   - file: explorecor-showcases/explorecor-showcases
+  - file: speech_analysis/Speech-Analysis-NLP-Play
   - file: parts_of_speech/parts_of_speech
 - caption: Appendix
   chapters:

@@ -1,0 +1,8 @@
+# Packages needed by Speech-Analysis-NLP-Play.ipynb.
+# Lock with: uv pip compile --universal --python-version 3.10 requirements.in -o requirements.txt
+requests
+pandas
+spacy
+wordcloud
+# German language model of spaCy (the default of the notebook)
+de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0-py3-none-any.whl
