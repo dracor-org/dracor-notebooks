@@ -14,6 +14,7 @@ parts:
   - file: catch-a-protagonist-in-dracor/catch-a-protagonist-in-dracor
   - file: dts/dts
   - file: batch_download/batch_download
+  - file: explorecor-showcases/explorecor-showcases
   - file: parts_of_speech/parts_of_speech
 - caption: Appendix
   chapters:

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this notebook, please cite it as below."
+type: software
+title: "ExploreCor Showcases: Using DraCor"
+abstract: "A Jupyter notebook with three showcases of DraCor as a Programmable Corpus (one-click downloads, stage directions for NLP, network measures for thousands of plays), from the CLS INFRA Training School ExploreCor (Vienna, 2024) and based on CLS INFRA D7.1, ch. 4."
+version: "2"
+authors:
+  - given-names: Ingo
+    family-names: Börner
+    affiliation: University of Potsdam
+    orcid: "https://orcid.org/0000-0001-8294-2541"
+  - given-names: Peer
+    family-names: Trilcke
+    affiliation: University of Potsdam
+    orcid: "https://orcid.org/0000-0002-1421-4320"
+repository-code: "https://github.com/dracor-org/dracor-notebooks/tree/main/explorecor-showcases"
+license: GPL-3.0  # to be decided, see #31
+keywords:
+  - DraCor
+  - drama
+  - programmable corpora
+  - network analysis
+  - stage directions
+  - PyDraCor
+  - ExploreCor
+references:
+  - type: report
+    title: "CLS INFRA D7.1 On Programmable Corpora"
+    authors:
+      - family-names: Börner
+        given-names: Ingo
+      - family-names: Trilcke
+        given-names: Peer
+    year: 2023
+    publisher:
+      name: Zenodo
+    doi: "10.5281/zenodo.7664964"

@@ -1,0 +1,6 @@
+# Packages needed by explorecor-showcases.ipynb.
+# Lock with: uv pip compile --universal --python-version 3.10 requirements.in -o requirements.txt
+pydracor>=3.0
+pandas
+matplotlib
+spacy
