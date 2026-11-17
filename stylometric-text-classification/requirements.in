@@ -1,0 +1,4 @@
+# Packages needed by stylometric-text-classification.ipynb.
+# Lock with: uv pip compile --universal --python-version 3.10 requirements.in -o requirements.txt
+requests
+scikit-learn
