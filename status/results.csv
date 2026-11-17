@@ -15,8 +15,8 @@ stylometric-text-classification,production,0.91.3,legacy,uses API v0,2026-11-15
 stylometric-text-classification,staging,1.5.0-rc.1,untested,,
 contrastive-text-analysis,production,1.4.1,fails,,2026-11-15
 contrastive-text-analysis,staging,1.5.0-rc.1,untested,,
-parts_of_speech,production,1.4.1,fails,,2026-11-15
-parts_of_speech,staging,1.5.0-rc.1,untested,,
+parts_of_speech,production,1.4.1,fails,,2026-11-17
+parts_of_speech,staging,1.5.0-rc.1,fails,,2026-11-17
 gender-visualization,production,1.4.1,fails,,2026-11-15
 gender-visualization,staging,1.5.0-rc.1,untested,,
 explorecor-showcases,production,1.4.1,runs,,2026-11-17
