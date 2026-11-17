@@ -1,5 +1,7 @@
 # Gender representation in German plays
 
+[![Status on dracor.org](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdracor-org%2Fdracor-notebooks%2Fmain%2Fstatus%2Fbadges%2Fgender-visualization.production.json)](https://dracor-org.github.io/dracor-notebooks/appendix/tested-environments.html) [![Status on staging](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdracor-org%2Fdracor-notebooks%2Fmain%2Fstatus%2Fbadges%2Fgender-visualization.staging.json)](https://dracor-org.github.io/dracor-notebooks/appendix/tested-environments.html)
+
 This collection of Jupyter notebooks provides tools to analyze and visualize gender representation in German plays. The primary goal of this project is to provide quantitative insights and inspiration for further research into the dramatic texts included in the German Drama Corpus. By visualizing relationships and gender distribution, researchers can gain a deeper understanding of the dynamics within each play.
 
 ## dracor_visualization.ipynb

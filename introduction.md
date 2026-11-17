@@ -14,6 +14,13 @@ The [DraCor Textbook](https://dracor-org.github.io/dracor-textbook/) introduces 
 ```{tableofcontents}
 ```
 
+## Status of the notebooks
+
+The badges show whether a notebook runs with the current DraCor API on dracor.org, and with the next release on the staging server, as last tested. Details are in the appendix [Tested environments](appendix/tested-environments).
+
+```{include} status/table.md
+```
+
 :::{admonition} Citation
 :class: note
 Please cite the notebooks using the metadata in [CITATION.cff](https://github.com/dracor-org/dracor-notebooks/blob/main/CITATION.cff). On GitHub, the "Cite this repository" button provides it as APA or BibTeX.

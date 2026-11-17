@@ -1,5 +1,7 @@
 # To catch a protagonist in DraCor
 
+[![Status on dracor.org](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdracor-org%2Fdracor-notebooks%2Fmain%2Fstatus%2Fbadges%2Fcatch-a-protagonist-in-dracor.production.json)](https://dracor-org.github.io/dracor-notebooks/appendix/tested-environments.html) [![Status on staging](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdracor-org%2Fdracor-notebooks%2Fmain%2Fstatus%2Fbadges%2Fcatch-a-protagonist-in-dracor.staging.json)](https://dracor-org.github.io/dracor-notebooks/appendix/tested-environments.html)
+
 In the paper [*To Catch a Protagonist: Quantitative Dominance Relations in German-Language Drama (1730–1930)*](https://dh-abstracts.library.cmu.edu/works/6281) (Fischer, Trilcke et al. 2018) an algorithm is described, that allows to identify characters that are the quantitatively dominant characters of a play based on a set of network-based and count based measures:
 
 > In order to systematically describe the extent of this deviation, we calculate eight values for each character of the 465 dramas of our corpus, three count-based measures (number of scenes a character appears in, number of speech acts, number of spoken words) and five network-related measures (degree, weighted degree, betweenness centrality, closeness centrality, eigenvector centrality). For each measurement a ranking is created. The rankings are then merged into two meta-rankings: one count-based and one network-based. The two meta-rankings are then combined into an overall ranking.

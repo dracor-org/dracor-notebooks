@@ -1,5 +1,7 @@
 # DTS (Distributed Text Services) in DraCor
 
+[![Status on dracor.org](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdracor-org%2Fdracor-notebooks%2Fmain%2Fstatus%2Fbadges%2Fdts.production.json)](https://dracor-org.github.io/dracor-notebooks/appendix/tested-environments.html) [![Status on staging](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdracor-org%2Fdracor-notebooks%2Fmain%2Fstatus%2Fbadges%2Fdts.staging.json)](https://dracor-org.github.io/dracor-notebooks/appendix/tested-environments.html)
+
 This Jupyter notebook introduces the implementation of the DTS (Distributed Text Services) API in DraCor. It demonstrates the endpoints Collection, Navigation and Document with examples and compares the DTS API with the regular DraCor API.
 
 ## Running the notebook
