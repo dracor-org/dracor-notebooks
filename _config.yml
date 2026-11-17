@@ -3,13 +3,17 @@
 
 title: DraCor Notebooks
 author: The DraCor Community
+copyright: "2021–2026"
 logo: dracor-blue.png
 only_build_toc_files: true
+exclude_patterns: [".venv", "venv", "_build", "**/.ipynb_checkpoints"]
 
-# Force re-execution of notebooks on each build.
+# The notebooks are not executed when the book is built: the book shows the
+# outputs saved in the notebooks. Each notebook is run and tested before it
+# is merged (see CONTRIBUTING.md).
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: "off"
 
 # Define the name of the latex output file for PDF builds
 latex:
