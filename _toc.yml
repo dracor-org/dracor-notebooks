@@ -3,11 +3,18 @@
 
 format: jb-book
 root: introduction
-chapters:
-- file: api-tutorial/api-tutorial
-- file: contrastive-text-analysis/scattertext
-- file: gender-visualization/dracor_visualization
-- file: genre-analysis/Dracor_Genre_Analysis
-- file: stylometric-text-classification/stylometric-text-classification
-- file: catch-a-protagonist-in-dracor/catch-a-protagonist-in-dracor
-- file: parts_of_speech/parts_of_speech
+parts:
+- caption: Notebooks
+  chapters:
+  - file: api-tutorial/api-tutorial
+  - file: contrastive-text-analysis/scattertext
+  - file: gender-visualization/dracor_visualization
+  - file: genre-analysis/Dracor_Genre_Analysis
+  - file: stylometric-text-classification/stylometric-text-classification
+  - file: catch-a-protagonist-in-dracor/catch-a-protagonist-in-dracor
+  - file: dts/dts
+  - file: batch_download/batch_download
+  - file: parts_of_speech/parts_of_speech
+- caption: Appendix
+  chapters:
+  - file: appendix/tested-environments

@@ -14,7 +14,7 @@ Install the required packages with `pip install -r requirements.txt` (Python 3.1
 
 Images keep the licence of their source; the licence of this repository does not apply to them.
 
-## Versions
+## Version history
 
 ### Version 2: DTS 1.0 (November 2026)
 

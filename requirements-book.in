@@ -1,0 +1,3 @@
+# Packages needed to build the DraCor Notebooks book (not to run the notebooks).
+# Lock with: uv pip compile --universal --python-version 3.11 requirements-book.in -o requirements-book.txt
+jupyter-book>=1.0,<2

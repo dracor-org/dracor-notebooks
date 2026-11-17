@@ -3,12 +3,17 @@
 
 title: DraCor Notebooks
 author: The DraCor Community
+copyright: "2021–2026"
 logo: dracor-blue.png
+only_build_toc_files: true
+exclude_patterns: [".venv", "venv", "_build", "**/.ipynb_checkpoints"]
 
-# Force re-execution of notebooks on each build.
+# The notebooks are not executed when the book is built: the book shows the
+# outputs saved in the notebooks. Each notebook is run and tested before it
+# is merged (see CONTRIBUTING.md).
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: "off"
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -32,6 +37,30 @@ html:
   use_repository_button: true
 
 launch_buttons:
-  binderhub_url: "https://mybinder.org"
+  binderhub_url: "https://binder.eu-2.notebooks.open-science-cloud.ec.europa.eu"
   colab_url: "https://colab.research.google.com"
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+
+sphinx:
+  local_extensions:
+    launch_buttons_extra: _ext/  # EOSC EU Node + mybinder.org, as in the DraCor Textbook
+  config:
+    # These html_theme_options replace the ones Jupyter Book generates from
+    # `repository`, `html` and `launch_buttons`, so they are repeated here.
+    html_theme_options:
+      repository_url: https://github.com/dracor-org/dracor-notebooks
+      repository_branch: main
+      use_repository_button: true
+      use_issues_button: true
+      launch_buttons:
+        binderhub_url: https://binder.eu-2.notebooks.open-science-cloud.ec.europa.eu
+        colab_url: https://colab.research.google.com
+        notebook_interface: jupyterlab
+      extra_footer: |
+        <p>The DraCor Notebooks are archived on Zenodo: <a href="https://doi.org/10.5281/zenodo.24237154">10.5281/zenodo.24237154</a>. For an introduction to DraCor, see the <a href="https://dracor-org.github.io/dracor-textbook/">DraCor Textbook</a>.</p>
+        <p>The relaunch and maintenance of the DraCor Notebooks (2026) have been carried out in the context of “<a href="https://oscars-project.eu/projects/dracoros-fostering-open-science-digital-humanities-connecting-dracor-ecosystem-eosc">DraCorOS. Fostering Open Science in Digital Humanities by connecting the ‘DraCor’ Ecosystem to EOSC</a>”, a project funded by <a href="https://oscars-project.eu/">OSCARS</a>. We acknowledge the <a href="https://oscars-project.eu/">OSCARS project</a>, which has received funding from the European Commission’s Horizon Europe Research and Innovation programme under grant agreement Nº. <a href="https://cordis.europa.eu/project/id/101129751">101129751</a>.</p>
+        <p>The code is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</a>.</p>
 
