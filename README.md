@@ -34,3 +34,9 @@ The notebooks are archived on Zenodo:
 
 - All versions (resolves to the latest): [10.5281/zenodo.24237154](https://doi.org/10.5281/zenodo.24237154)
 - Baseline as tested on 2026-11-15 (tag `2026-11-15-baseline`): [10.5281/zenodo.24237155](https://doi.org/10.5281/zenodo.24237155)
+
+## Acknowledgements
+
+The relaunch and maintenance of the DraCor Notebooks in 2026, i.e. testing, documenting and updating the notebooks for the current DraCor API, and the relaunch of the [DraCor Notebooks book](https://dracor-org.github.io/dracor-notebooks/), have been carried out in the context of "[DraCorOS. Fostering Open Science in Digital Humanities by connecting the 'DraCor' Ecosystem to EOSC](https://oscars-project.eu/projects/dracoros-fostering-open-science-digital-humanities-connecting-dracor-ecosystem-eosc)", a project funded by [OSCARS](https://oscars-project.eu/). We acknowledge the OSCARS project, which has received funding from the European Commission's Horizon Europe Research and Innovation programme under grant agreement Nº. [101129751](https://cordis.europa.eu/project/id/101129751).
+
+The notebooks were created in different contexts since 2021, which are named in their version histories.
