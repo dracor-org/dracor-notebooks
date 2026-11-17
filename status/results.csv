@@ -1,6 +1,6 @@
 folder,server,api_version,result,detail,date
-api-tutorial,production,1.4.1,partial,35/38 cells,2026-11-15
-api-tutorial,staging,1.5.0-rc.1,partial,35/38 cells,2026-11-17
+api-tutorial,production,1.4.1,runs,,2026-11-17
+api-tutorial,staging,1.5.0-rc.1,runs,,2026-11-17
 catch-a-protagonist-in-dracor,production,1.4.1,runs,,2026-11-16
 catch-a-protagonist-in-dracor,staging,1.5.0-rc.1,runs,,2026-11-16
 dts,production,1.4.1,partial,142/144 cells,2026-11-17
