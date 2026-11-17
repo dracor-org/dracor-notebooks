@@ -30,7 +30,9 @@ The DraCor server is set in one variable, `api_base`, at the beginning of the no
 
 ## Editing workflow
 
-1. **Issue.** Describe the change in an issue, or refer to an existing one. For a new notebook, the maintainers create a label `nb: <folder>`.
+These are the steps for the author of a change or of a new notebook:
+
+1. **Issue.** Describe the change in an issue, or refer to an existing one.
 2. **Branch.** Work on a branch named after the notebook folder, e.g. `dts-1.0` or `catch-a-protagonist`.
 3. **Change in place.** Correct the notebook directly, code and text. Do not add "updated" notes to the notebook; the git history shows the changes. The notebook only states which API version it targets.
 4. **Run the whole notebook** from top to bottom against the server it targets: production, or staging for a coming API release. Save it with its outputs. Check that the outputs contain no local paths, tokens or other personal data.
@@ -40,10 +42,14 @@ The DraCor server is set in one variable, `api_base`, at the beginning of the no
    - Version history in the README: describe the changes. A **new version** starts when the code changes for a new version of the DraCor API, of a specification such as DTS, or of a package such as PyDraCor. Corrections of the text or of errors are part of the current version.
    - If dependencies changed: `requirements.in` and the lock file.
    - If AI tools were used for the notebook: a short note "Use of AI" at its end.
-   - For a new notebook: add it to the table of contents of the book (`_toc.yml`).
 6. **Pull request** to `main`. Say how you tested the notebook, and declare the use of AI tools (see below).
-7. **Review.** At least one maintainer reviews the pull request before it is merged.
-8. **Release.** The maintainers tag releases (e.g. `2026-11-15-baseline`) and archive them on Zenodo. The tag is then entered in the version history of each notebook it concerns.
+
+## Tasks of the maintainers
+
+- **Labels.** The maintainers label issues and pull requests by type (e.g. `bug`, `update`, `correction`, `notebook proposal`) and by notebook (`nb: <folder>`). For a new notebook, they create its `nb:` label.
+- **Review.** At least one maintainer reviews a pull request before it is merged.
+- **Book.** They add a new notebook to the table of contents of the [DraCor Notebooks book](https://dracor-org.github.io/dracor-notebooks/) (`_toc.yml`).
+- **Release.** They tag releases (e.g. `2026-11-15-baseline`) and archive them on Zenodo. The tag is then entered in the version history of each notebook it concerns.
 
 ## Use of AI
 
