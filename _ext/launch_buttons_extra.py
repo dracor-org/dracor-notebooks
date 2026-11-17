@@ -42,8 +42,8 @@ def add_mybinder_button(app, pagename, templatename, context, doctree):
                     "url": MYBINDER + url[len(EU_NODE_BINDER):],
                 },
             )
-            buttons.insert(
-                i + 2,
+            # The help link comes last, after all launch services (e.g. Colab).
+            buttons.append(
                 {
                     "type": "link",
                     "text": "How to launch (help)",
