@@ -33,7 +33,7 @@ Tag: [`2026-11-15-baseline`](https://github.com/dracor-org/dracor-notebooks/tree
 
 ### Version 1: unversioned DraCor API (November 2021)
 
-The first version of this notebook, by Ingo Börner, reconstructs the algorithm of the paper "To Catch a Protagonist" (Fischer, Trilcke et al. 2018) with data from the DraCor API, which was not versioned at that time (`https://dracor.org/api/`, now the legacy API v0).
+The first version of this notebook, by Ingo Börner, reconstructs the algorithm of the paper "To Catch a Protagonist" (Fischer, Trilcke et al. 2018) with data from the DraCor API, which was not versioned at that time (`https://dracor.org/api/`, now the legacy API v0). The notebook was prepared alongside the reimplementation of the original algorithm for the talk "To Catch a Protagonist … Once Again. An Attempt to Recreate a Corpus-Based Study Using Linked Data" by Ingo Börner, Peer Trilcke, Frank Fischer, Carsten Milling and Henny Sluyter-Gäthje at the closing conference of the COST Action CA16204 "Distant Reading for European Literary History", held online together with CLS INFRA and organised by the Jagiellonian University, Kraków (22 April 2022; see the [conference programme](https://www.distant-reading.net/events/conference-programme/), Session 5a).
 
 Heinz-Alexander Fütterer (2023, commit `2452d3f`) and Luca Giovannini (2024, commit `da07079`) corrected typos in the text.
 
