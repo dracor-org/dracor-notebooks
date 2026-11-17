@@ -1,0 +1,6 @@
+# Packages needed by parts_of_speech.ipynb.
+# Lock with: uv pip compile --universal --python-version 3.10 requirements.in -o requirements.txt
+pydracor>=3.0
+spacy
+# English language model of spaCy
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
