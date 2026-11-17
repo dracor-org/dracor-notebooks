@@ -29,9 +29,17 @@ The DraCor Notebooks are maintained by Ingo Börner, Henny Sluyter-Gäthje and F
 
 **Use of AI:** We use AI, namely Claude Code (Anthropic), to test, maintain and update the notebooks. All changes are reviewed by a maintainer.
 
-## Binder
-Notebooks can be executed locally or via Binder:
-https://mybinder.org/v2/gh/dracor-org/dracor-notebooks/main
+## Running the notebooks
+
+There are several ways to run the notebooks:
+
+- **From the book:** on each page of the [DraCor Notebooks book](https://dracor-org.github.io/dracor-notebooks/), the launch menu (rocket icon) opens the notebook on the [EOSC EU Node Binder](https://binder.eu-2.notebooks.open-science-cloud.ec.europa.eu) (institutional login), on [mybinder.org](https://mybinder.org) (no login) or in [Google Colab](https://colab.research.google.com).
+- **On mybinder.org** for the whole repository: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dracor-org/dracor-notebooks/main)
+- **Locally:** clone the repository and install the packages of a notebook from the `requirements.txt` in its folder, e.g. `pip install -r dts/requirements.txt` (Python 3.10 or newer). Folders without their own `requirements.txt` have not been updated yet; their tested package versions are listed in [environments/](environments/).
+
+Appendix A of the [DraCor Textbook](https://dracor-org.github.io/dracor-textbook/appendix/running-the-textbook-as-an-interactive-notebook.html) explains step by step how to run notebooks on the EOSC EU Node Binder and on mybinder.org.
+
+The notebooks query the DraCor API. The server is set at the beginning of each notebook, usually in the variable `api_base`.
 
 ## Status and tested environments
 
